@@ -16,6 +16,7 @@ export default function HookUseRef() {
 
   return (
     <div>
+      <h1>useRef hook</h1>
       {/* Using useRef to see how the value changes without rerending */}
       {/* Using useRef to store the previous value and useEffect to store that value each time the name changes */}
       <div>

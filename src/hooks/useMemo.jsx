@@ -17,6 +17,7 @@ export default function HookUseMemo() {
 
   return (
     <div>
+      <h1>useMemo hook</h1>
       <input
         type="number"
         value={number}

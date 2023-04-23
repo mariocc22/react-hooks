@@ -42,6 +42,7 @@ export default function HookUseReducerAdvanced() {
   }
   return (
     <div>
+      <h1>useReducer Advanced hook</h1>
       <form action="" onSubmit={handleSubmit}>
         <input
           type="text"

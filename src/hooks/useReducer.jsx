@@ -33,6 +33,7 @@ export default function HookUseReducer() {
 
   return (
     <div>
+      <h1>useReducer hook</h1>
       <button onClick={decrement}>-</button>
       <span>{state.count}</span>
       <button onClick={increment}>+</button>

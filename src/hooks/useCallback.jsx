@@ -9,8 +9,8 @@ export default function HookUseCallBack() {
   // so you can use it, and even pass it parameters to change its behavior, just like now, I pass it
   // a "num" parameter to sum it to the actual number
   const getItems = useCallback(
-    (incrementor) => {
-      return [number, number + incrementor, number + incrementor];
+    (increment) => {
+      return [number, number + increment, number + increment + 1];
     },
     [number]
   );
@@ -22,6 +22,7 @@ export default function HookUseCallBack() {
 
   return (
     <div style={theme}>
+      <h1>useCallback hook</h1>
       <input
         type="number"
         value={number}
